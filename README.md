@@ -39,7 +39,7 @@ load-balancer-project/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/LoadBalancer-Live.git
+git clone https://github.com/TanishqV5/Load-Balancer-with-health-check
 cd LoadBalancer-Live
 ```
 
@@ -73,13 +73,41 @@ Open `frontend/index.html` in your browser.
 
 ## Screenshots
 
-![Project Overview](path/to/screenshot.png)
-![Server Status Update](path/to/screenshot.png)
-![Visitor count and server interaction](path/to/screenshot.png)
-![Error Handling](path/to/screenshot.png)
-![All Servers Down](path/to/screenshot.png)
-![Logs](path/to/screenshot.png)
+1. **Project Overview**  
+   ![Project Overview](ScreenShots/Project%20overview.png)  
+   *A clean and simple web interface for the load balancer.*
 
+2. **All Servers Healthy**  
+   ![All Servers Healthy](ScreenShots/All%20servers%20healthy.png)  
+   *All backend servers are healthy and responding to requests.*
+
+3. **One Server Down**  
+   ![One Server Down](ScreenShots/One%20server%20down.png)  
+   *The load balancer detects one server as unhealthy and skips it while routing requests.*
+   ![Log](ScreenShots/Server%20down%20log.png) 
+
+
+4. **All Servers Down**
+    - **Webpage**
+      ![All Servers Down (Webpage)](ScreenShots/All%20server%20down%20webpage.png)  
+      *The web interface displays an error when all servers are down.*
+    
+    - **Logs**
+      ![All Servers Down (Logs)](ScreenShots/All%20server%20down%20log.png)  
+      *Logs showing the health check failures for all servers.* 
+
+5. **Server's responce and visitor count**  
+    - **Frontend**
+   ![Visitor Count and Response](ScreenShots/Responce%20and%20visitor%20count.png)  
+   *The response from the backend server includes the visitor count.*
+
+   - **Backend**
+     ![Server Responce](ScreenShots/Screenshot%201.png)
+
+6. **Server Logs**  
+   ![Server Logs](ScreenShots/Server%20Log.png)  
+   *Logs from the load balancer showing health checks and request routing.*
+   ![Load balancer log](ScreenShots/Log.png)
 ---
 
 ## Concepts Demonstrated
