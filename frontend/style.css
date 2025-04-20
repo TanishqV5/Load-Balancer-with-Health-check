@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.response-text {
+    font-weight: bold; /* Makes the text bold */
+    color: blue; /* Changes the text color */
+    font-size: 18px; /* Adjusts the font size */
+    text-align: center; /* Centers the text */
+    margin-top: 10px; /* Adds some space above the text */
+}
+
+#response_div{
+    border: solid 2px #000000;
+    width: 42vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+
+#status_box {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 80%; 
+    margin: 20px auto; /* Center the box horizontally with some vertical margin */
+    border: 2px solid #000; 
+    padding: 20px; 
+    background-color: #fcf9f9; 
+    border-radius: 10px; 
+}
+
+#server_status {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%; 
+    margin-top: 20px; 
+}
+
+.server-div {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: 10px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #fff; 
+    width: 150px; 
+}
+
+.server-name {
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+.status-image {
+    width: 30px; 
+    height: 30px; 
+}
