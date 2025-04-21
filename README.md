@@ -73,6 +73,9 @@ Open `frontend/index.html` in your browser.
 
 ## Screenshots
 
+   **Design**
+   ![Project Design](ScreenShots/Design.png)
+
 1. **Project Overview**  
    ![Project Overview](ScreenShots/Project%20overview.png)  
    *A clean and simple web interface for the load balancer.*
